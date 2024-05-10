@@ -28,9 +28,9 @@ function About() {
   logo();
   echo <<<EOL
 
-         \033[01;33mTool Name \033[01;37m:- \033[01;36mIP-Tracer
-         \033[01;33mAuthor \033[01;37m:- \033[01;36mRajkumar Dusad
-         \033[01;33mPowered By \033[01;37m:- \033[01;36mAex Software's
+         \033[01;33mTool Name \033[01;37m:- \033[01;36mAVI IP-Tracer
+         \033[01;33mAuthor \033[01;37m:- \033[01;36mAvishka shavinda 
+         \033[01;33mPowered By \033[01;37m:- \033[01;36mAvi hack3r team
 
  \033[01;33mIP-Tracer\033[01;32m is use \033[01;36mip-api \033[01;32mto retrive any ip address information. Our system will automatically ban any IP addresses doing over 150 requests per minute.\033[00m
 
@@ -44,8 +44,8 @@ function upd() {
   logo();
   echo "\n\033[01;32mUpdating IP-Tracer.........\033[01;37m\n\n";
   sleep(1);
-  system("cd ~/ && git clone https://github.com/rajkumardusad/IP-Tracer.git");
-  system("cd ~/ && sudo git clone https://github.com/rajkumardusad/IP-Tracer.git");
+  system("cd ~/ && git clone https://github.com/avishka33/Avi-IP-Tracer.git");
+  system("cd ~/ && sudo git clone https://github.com/avishka33/Avi-IP-Tracer.git");
   system("cd ~/IP-Tracer && sh install");
   logo();
   echo "\n\033[01;32m              IP-Tracer updated !!!\033[01;37m\n";
@@ -65,7 +65,7 @@ function menu() {
   if ($inp=="x" || $inp=="exit") {
     echo "\n\033[01;31m  Exiting .......\033[00m\n";
     sleep(1);
-    echo "\033[01;32m  Bye ....... :)\n\n\033[00m";
+    echo "\033[01;32m  Bye බායි ....... :)\n\n\033[00m";
     exit();
   } else if ($inp=="1") {
     trac();
