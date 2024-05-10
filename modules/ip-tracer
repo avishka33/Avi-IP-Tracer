@@ -1,0 +1,11 @@
+# Tool Name :- AVI IP-Tracer
+# Author :- AVISHKA SHAVINDA
+# Date :- 10/05/2024
+# Powered By :- AVI NET HUNTER
+if [ -d /data/data/com.termux/files/usr/share ];then
+  cd /data/data/com.termux/files/usr/share/IP-Tracer
+  exec bash trace $@
+elif [ -d /usr/share ];then
+  cd /usr/share/IP-Tracer
+  exec bash trace $@
+fi
